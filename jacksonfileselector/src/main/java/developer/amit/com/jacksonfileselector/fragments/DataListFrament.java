@@ -11,13 +11,9 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ProgressBar;
-
 import java.util.ArrayList;
-
 import developer.amit.com.jacksonfileselector.FilesScanner;
 import developer.amit.com.jacksonfileselector.R;
-import developer.amit.com.jacksonfileselector.activity.FileSelectorActivity;
 import developer.amit.com.jacksonfileselector.adapters.DataListAdapter;
 import developer.amit.com.jacksonfileselector.callbacks.DataResultCallBack;
 import developer.amit.com.jacksonfileselector.model.DocumentModel;

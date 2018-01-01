@@ -15,13 +15,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import java.util.ArrayList;
 import java.util.Arrays;
-
 import developer.amit.com.jacksonfileselector.activity.FileSelectorActivity;
-import developer.amit.com.jacksonfileselector.utils.Constants;
-
 import static developer.amit.com.jacksonfileselector.activity.FileSelectorActivity.FILE_KEY;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {

@@ -12,10 +12,6 @@ import java.util.ArrayList;
 
 import developer.amit.com.jacksonfileselector.R;
 
-/**
- * Created by v3mobi on 3/12/17.
- */
-
 public class CustomDialogListAdapter extends RecyclerView.Adapter<CustomDialogListAdapter.CustomDialogViewHolder> {
 
     private ArrayList<String> items;

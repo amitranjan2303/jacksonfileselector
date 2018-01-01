@@ -2,10 +2,6 @@ package developer.amit.com.jacksonfileselector.model;
 
 import android.graphics.Bitmap;
 
-/**
- * Created by v3mobi on 7/12/17.
- */
-
 public class DocumentModel {
     private String fileType;// this variable is only use for view type
     private String fileName;

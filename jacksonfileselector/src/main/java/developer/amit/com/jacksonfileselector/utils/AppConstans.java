@@ -1,9 +1,5 @@
 package developer.amit.com.jacksonfileselector.utils;
 
-/**
- * Created by v3mobi on 9/12/17.
- */
-
 public interface AppConstans {
 
     String FILE_TYPE_VIDEO = "Video";

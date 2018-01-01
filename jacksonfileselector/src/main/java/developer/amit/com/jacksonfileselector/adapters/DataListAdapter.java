@@ -1,6 +1,5 @@
 package developer.amit.com.jacksonfileselector.adapters;
 
-import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,10 +15,6 @@ import developer.amit.com.jacksonfileselector.viewholders.BaseViewHolder;
 import developer.amit.com.jacksonfileselector.viewholders.EmptyViewHolder;
 import developer.amit.com.jacksonfileselector.viewholders.ImageViewHolder;
 import developer.amit.com.jacksonfileselector.viewholders.OtherFileViewHolder;
-
-/**
- * Created by v3mobi on 9/12/17.
- */
 
 public class DataListAdapter extends RecyclerView.Adapter<BaseViewHolder> {
 

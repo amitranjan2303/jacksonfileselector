@@ -18,10 +18,6 @@ import developer.amit.com.jacksonfileselector.R;
 import developer.amit.com.jacksonfileselector.fragments.DataListFrament;
 import developer.amit.com.jacksonfileselector.model.DocumentModel;
 
-/**
- * Created by v3mobi on 3/12/17.
- */
-
 public class FileSelectorActivity extends AppCompatActivity implements CustomDialogFragment.DialogFinalResultCallBack, DataListFrament.FinalResultCallBack, View.OnClickListener {
 
     public static final String EXT_KEY = "extKey";

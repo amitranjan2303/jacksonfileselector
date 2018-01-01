@@ -2,10 +2,6 @@ package developer.amit.com.jacksonfileselector.model;
 
 import android.text.TextUtils;
 
-/**
- * Created by v3mobi on 7/12/17.
- */
-
 public class FileIdentityUtils {
 
     private static boolean contains(String[] types, String ext) {

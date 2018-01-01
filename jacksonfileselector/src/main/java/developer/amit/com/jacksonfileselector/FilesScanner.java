@@ -22,11 +22,6 @@ import static android.provider.BaseColumns._ID;
 import static android.provider.MediaStore.MediaColumns.DATA;
 import static developer.amit.com.jacksonfileselector.model.FileIdentityUtils.verifyInput;
 
-
-/**
- * Created by v3mobi on 7/12/17.
- */
-
 public class FilesScanner extends AsyncTask<String, Void, ArrayList<DocumentModel>> {
 
     private ArrayList<String> pathList;
