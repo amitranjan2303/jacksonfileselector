@@ -11,10 +11,10 @@ This README would normally document whatever steps are necessary to get your app
 
 * get clone repo
 * Add Permissions In Manifest
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+   <uses-permission android:name="android.permission.INTERNET" />
+   <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 	
 * Add this lines to your Activity
        ArrayList<String> fileType = new ArrayList<String>();
