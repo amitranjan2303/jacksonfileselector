@@ -18,9 +18,15 @@ This README would normally document whatever steps are necessary to get your app
 	
 * Add this lines to your Activity
        ArrayList<String> fileType = new ArrayList<String>();
+	    
 	    fileType.add(".jpg");
-        fileType.add(".doc");
-       FileSelectorActivity.newInstant(context, 111, fileType);
+            
+	    fileType.add(".doc");
+             
+	     //use for multiple selection
+	     Constants.setMultipleSelection(true);
+      
+      FileSelectorActivity.newInstant(context, 111, fileType);
 	   
 	     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
