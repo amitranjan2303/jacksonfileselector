@@ -11,8 +11,7 @@ This README would normally document whatever steps are necessary to get your app
 
 * get clone repo
 * Add Permissions In Manifest
-
-   <uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.INTERNET" />
    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -34,14 +33,16 @@ This README would normally document whatever steps are necessary to get your app
 	    
   * Add this method to your Activity  
   
-    @Overrid
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+   @Overrid 
+   protected void onActivityResult(int requestCode, int resultCode, Intent data) 
+    
+    {
+    
         if (requestCode == 111 && resultCode == RESULT_OK) {
             if (data != null) {
                 ArrayList<String> list = data.getStringArrayListExtra(FILE_KEY);
             }
-        }
-    }
+        }	}
 
 
 ### Contribution guidelines ###
